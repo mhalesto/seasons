@@ -44,18 +44,3 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.querySelector('#root'));
-
-
-
-
-//   const err = err => {
-//     navigator.permissions.query({name:'geolocation'}).then(function(result) {
-//       if (result.state === 'granted') {
-//         console.log('Granted ++++++++++++++++++++');
-//       } else if (result.state === 'prompt') {
-//         console.log('Prompt ................');
-//       } else {
-//         console.log(result);
-//       }
-//     });
-//   }
