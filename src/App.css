@@ -4,7 +4,7 @@ iframe {
 
 @font-face {
   font-family: "sensei";
-  src: local("sensei"), url(./sensei.ttf) format("truetype");
+  src: local("sensei"), url(./assets/fonts/sensei.ttf) format("truetype");
 }
 
 .summer {
@@ -32,7 +32,7 @@ iframe {
 
 .winter .icon-left,
 .winter .icon-right {
-  background: url("./sparkles.png");
+  background: url("./assets/img/sparkles.png");
   background-size: cover;
   width: 400px !important;
   height: 400px !important;
@@ -45,7 +45,7 @@ iframe {
   top: 180px;
   height: 200px;
   width: 200px;
-  background: url("./sparkles2.png") no-repeat;
+  background: url("./assets/img/sparkles2.png") no-repeat;
   background-size: contain;
   position: absolute;
   background-position: 0 0px;
@@ -58,7 +58,7 @@ iframe {
   top: 180px;
   height: 200px;
   width: 200px;
-  background: url("./sparkles3.png") no-repeat;
+  background: url("./assets/img/sparkles3.png") no-repeat;
   background-size: contain;
   position: absolute;
   background-position: 0 0px;
@@ -77,7 +77,7 @@ iframe {
 .winter:after {
   content: "";
   display: block;
-  background: url("./clouds.png");
+  background: url("./assets/img/clouds.png");
   position: absolute;
   background-size: cover;
   bottom: 0px;
